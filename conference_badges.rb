@@ -15,7 +15,7 @@ def assign_rooms(attendees)
     "Hello, #{element}! You'll be assigned to room #{index+1}!"
   end
 def printer(attendees)
-  batch_badge_creator(attendees).each.map do |element| 
+  batch_badge_creator(attendees).each do |element| 
     puts element
   end
 end
