@@ -5,5 +5,7 @@ def badge_maker(name)
 puts "Hello, my name is #{name}."
 end
   
-def batch_badge_creator
+def batch_badge_creator(attendees)
+  attendees.collect do |element|
+    "Hello, my name is #{element}"
 end
