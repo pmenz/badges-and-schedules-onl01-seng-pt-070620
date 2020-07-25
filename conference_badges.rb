@@ -24,7 +24,7 @@ def printer(attendees)
     puts element
   end
   
-  assign_rooms(attendees.each do |element|
+  assign_rooms(attendees).each do |element|
     puts element
   end
   
